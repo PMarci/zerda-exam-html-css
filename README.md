@@ -81,11 +81,11 @@ Add your answer to this readme file, commit your changes to this repository.
 </html>
 ```
 #### Your answer: 
-The yellow box (top left corner) is located 40px to the right and 40px to the bottom of the top left corner of the <body> element. This is because
-both descendants of the <body> element ("foo"and "bar") have their positioning set to absolute, that is absolute to their respective parent element.
+The yellow box (top left corner) is located 40px to the right and 40px to the bottom of the top left corner of the `<body>` element. This is because
+both descendants of the `<body>` element ("foo"and "bar") have their positioning set to absolute, that is absolute to their respective parent element.
 Furthermore, none of them have a margin, or a padding set, so this positioning using top, left becomes the cumulative distance of said corners.
-Considering the html document represents an two-dimensional Euclidian space, which has a norm associated to it, and because the inner product of x with itself (sqr(x*x))is always non-negative,
-we can define a distance function based on that norm (the Euclidian norm). This makes the distance of the two corners sqr(40^2+40^2)=56.56px
+Considering the html document represents an two-dimensional Euclidian space, which has a norm associated to it, and because the inner product of x with itself (sqrt(x*x))is always non-negative,
+we can define a distance function based on that norm (the Euclidian norm). This makes the distance of the two corners sqrt(40^2+40^2)=56.56px
 [2p]
 
 
@@ -104,8 +104,8 @@ Inline-block elements behave as inline elements, however they will accept height
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: 
-<section> denotes a generic section in a document, which could be a chapter, a heading, a footer, a block of text. MDN recommends sections be identified with a nested <h> element.
-In comparison, the <article> tag should be used for self-contained composition, which should not be depended on it's context. It could be used for example as a forum, or blog post
-or similar text. This too, should be identified by a heading. MDN mentions extra tags to be used in conjunction, such as <adress> and <time>, to identify the euthor, date and time of a
+`<section>` denotes a generic section in a document, which could be a chapter, a heading, a footer, a block of text. MDN recommends sections be identified with a nested `<h>` element.
+In comparison, the `<article>` tag should be used for self-contained composition, which should not be depended on it's context. It could be used for example as a forum, or blog post
+or similar text. This too, should be identified by a heading. MDN mentions extra tags to be used in conjunction, such as `<adress>` and `<time>`, to identify the euthor, date and time of a
 composition.
 [2p]
