@@ -12,7 +12,6 @@ h1, td, th, p {
   margin-bottom: 0;
 }
 th, td, p {
-  margin-left: inherit;
   font-size: 14px;
   text-align: left;
   font-weight: 300;
@@ -36,7 +35,6 @@ p {
 }
 #img-2 {
   background-image: url(duck2.jpg);
-  float: left;
 }
 .card {
   display: flex;
